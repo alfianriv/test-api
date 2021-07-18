@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "author": "Alfian Rivaldi",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/vision": "^6.1.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "hapi-swagger": "14.2.1",
+    "joi": "17.x",
+    "knex": "^0.95.7",
+    "pg": "^8.6.0",
+    "uuid": "^8.3.2",
+    "xml-js": "^1.6.11"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
